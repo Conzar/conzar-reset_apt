@@ -1,0 +1,11 @@
+2014-2-5 - Version 1.0.2
+
+Summary:
+
+Changed to using check_run module for handling one time only apt refresh.
+
+2013-12-30 - Version 1.0.1
+*This release added a test and a Change log.
+
+2013-12-30 - Version 1.0.0
+* Initial Release

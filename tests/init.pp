@@ -1,0 +1,2 @@
+class { 'reset_apt' :
+}
