@@ -1,28 +1,33 @@
 {
+  "dependencies": [
+    {
+      "version_requirement": ">= 2.2.1",
+      "name": "puppetlabs-stdlib"
+    },
+    {
+      "version_requirement": ">= 1.4.0",
+      "name": "puppetlabs-apt"
+    },
+    {
+      "version_requirement": ">= 0.2.1",
+      "name": "conzar-check_run"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04"
+      ],
+      "operatingsystem": "Ubuntu"
+    }
+  ],
   "name": "conzar-reset_apt",
-  "version": "1.0.3",
+  "version": "99.99.99",
   "author": "Michael Speth",
   "summary": "Cleans the apt package lists and gets a fresh package list.",
   "license": "GPL-3.0+",
   "source": "git://github.com/Conzar/conzar-reset_apt.git",
   "project_page": "https://github.com/Conzar/conzar-reset_apt",
-  "issues_url": "https://github.com/Conzar/conzar-reset_apt/issues",
-  "operatingsystem_support": [
-    { "operatingsystem": "Ubuntu",
-      "operatingsystemrelease": [ "12.04", "14.04" ] }
-  ],
-  "dependencies": [
-    {
-    	"name":"puppetlabs-stdlib",
-    	"version_requirement":">= 2.2.1"
-    },
-    {
-      "name": "puppetlabs-apt",
-      "version_requirement": ">= 1.4.0"
-    },
-    {
-      "name": "conzar-check_run",
-      "version_requirement": ">= 0.2.1"
-    }
-  ]
+  "issues_url": "https://github.com/Conzar/conzar-reset_apt/issues"
 }
